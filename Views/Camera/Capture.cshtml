@@ -1,0 +1,90 @@
+@{
+    Layout=null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Activar Cámara web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
+    <style type="text/css">
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2,h3{
+            margin-top:0;
+        }
+        form{
+            margin-top: 16px;
+        }
+        form>input{
+            margin-right: 16px;
+        }
+        #buttonhide{
+            background: transparent;
+            border:none !important;
+            font-size: 0;
+        }
+    </style>
+</head>
+<body class="container">
+    <br/>
+    <div class="col-md-2"></div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Cámara Activada
+            </div>
+
+            <div class="panel-body">
+                <div id="my_camera"></div>
+            <form>
+                <input type="button" class="btn btn-success" value="Tomar foto"
+                    onclick="take_snapshot()"/>
+            </form>
+        </div>
+    </div>
+    </div>
+        <div class="col-md-4">
+            <div class="panel panel-default">
+            <div class="panel-heading">
+                Tomar foto
+            </div>
+            <div class="panel-body">
+              <div id="results"> Tu foto ...</div>
+            </div>
+            <br/>
+            <br/>
+        </div>    
+    </div>
+
+    <div class="col-md-2"></div>
+    <script src="~/webcamjs/webcam.js"></script>
+    <script languaje="Javascript">
+        Webcam.set({
+            width:300,
+            height:230,
+            image_format:'jpeg',
+            jpeg_quality:90
+        });
+        Webcam.attach('#my_camera');
+    </script>
+    <script languaje="JavaScript">
+       function take_snapshot(){
+            Webcam.snap(function(data_uri){
+                document.getElementById('results').innerHTML =
+                '<img src="' +
+                data_uri +
+                '"/>';
+                Webcam.upload(data_uri,
+                'Camera/Capture',
+                    function(code, text){
+                        alert('Foto tomada con éxito')
+                    });
+            })
+       }
+    </script>
+</body>
+
+</html>
