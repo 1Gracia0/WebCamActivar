@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\WebCamActivar\bin\Release\net6.0\publish\WebCamCapturing.exe
+C:\Users\User\Desktop\WebCamActivar\bin\Release\net6.0\publish\appsettings.Development.json
+C:\Users\User\Desktop\WebCamActivar\bin\Release\net6.0\publish\appsettings.json
+C:\Users\User\Desktop\WebCamActivar\bin\Release\net6.0\publish\WebCamCapturing.dll
+C:\Users\User\Desktop\WebCamActivar\bin\Release\net6.0\publish\WebCamCapturing.deps.json
+C:\Users\User\Desktop\WebCamActivar\bin\Release\net6.0\publish\WebCamCapturing.runtimeconfig.json
+C:\Users\User\Desktop\WebCamActivar\bin\Release\net6.0\publish\WebCamCapturing.pdb

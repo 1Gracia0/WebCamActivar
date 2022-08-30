@@ -28,38 +28,43 @@
         }
     </style>
 </head>
-<body class="container">
+<body class="container border">
     <br/>
-    <div class="col-md-2"></div>
-    <div class="col-md-4">
-        <div class="panel panel-default">
-            <div class="panel-heading">
+    <div class="row">
+    <div class="">
+        <div class="">
+            <div class="">
                 Cámara Activada
             </div>
 
-            <div class="panel-body">
-                <div id="my_camera"></div>
+            <div class="">
+                <div id="my_camera">
+                
+            </div>
             <form>
-                <input type="button" class="btn btn-success" value="Tomar foto"
+                <input type="button" class="btn btn-primary" value="Tomar foto"
                     onclick="take_snapshot()"/>
             </form>
         </div>
     </div>
     </div>
-        <div class="col-md-4">
-            <div class="panel panel-default">
-            <div class="panel-heading">
-                Tomar foto
+    <div class="row" >
+        <div class="">
+            <div class="">
+            <div class="">
+    
             </div>
-            <div class="panel-body">
-              <div id="results"> Tu foto ...</div>
+            <div class="">
+              <br/>
+              <div id="results"> Tu foto saldrá aquí</div>
+
             </div>
             <br/>
             <br/>
         </div>    
     </div>
-
-    <div class="col-md-2"></div>
+    </div>
+    <div class=""></div>
     <script src="~/webcamjs/webcam.js"></script>
     <script languaje="Javascript">
         Webcam.set({
@@ -67,9 +72,11 @@
             height:230,
             image_format:'jpeg',
             jpeg_quality:90
+            
         });
         Webcam.attach('#my_camera');
     </script>
+    </div>
     <script languaje="JavaScript">
        function take_snapshot(){
             Webcam.snap(function(data_uri){

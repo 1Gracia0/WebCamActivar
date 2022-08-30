@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "reconocimiento-facial-360323",
+    "private_key_id": "6ebcab7b1cb5f24318ad32a96a58e070e63215ac",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCclXlcUzLS/6ga\nWizFnCzfczhVwkRbAhVp28ppyhW2yW3oQZzN/iPg05mVI5IPnpXUtCMivhd08+30\nQoYztx/7pIZQOCT+pt9tcaJbHI2GJALHB+nWmUTiav5xGPlJ1Auec9lXUbR/UGnV\nnGANvdz17T9s9cgjzAU8U2SErwsLWn9djLZ4JS6Bx5hcZFtIeeSz6mRqK8/tVTWb\n/kN3uzpgXZv7q1G3M5ZK+YSXDWU1dRYjSnNoE07M9ny4pO3Mpyew7Yw+aEbEomG5\n4VhJPNuOMB015IXYtSga3zVQPuhZEpPRqo/2fS2t3sbFxkkAv6IwmDlj62F2SM+q\nB2M+nRp7AgMBAAECggEADb95kte2AcMzOFd/g9aOmz94cqsmXKxsdeMEcB2V1eEn\n1oZGpR1xrmOiiFVbSL/+dr9dyfo3tAVXK9fyN+f8FZhgUWD3x1xrOvNvTLs1v9Fs\nmJrP9w9Cj/PSvqckyBmNvAFLuitxAuNsD2nCuaIlNhOsOtePlXkFyQ8NwP3F2F61\nhpgp63J0HWLNDfi7d+WV2hKVnVEJsGuAsqQ0tRWJO+wTU0ZV+LsBYOw9m/t/PtCS\n8UXOJlqZjc/UYD9OWfm10YjxufxO6i9HNQXS7lfLAY/SKIJKnWBBtVxLE7f0gq9d\nLn54y9UZx1IA7pfjwpiu8MYR60g5Vr/WOPfx0lWCLQKBgQDb7DftB9YgL93zkCZC\nqFhxVN2FI7u7sRpI53cfVo4yc5UXNPdZotzJbIcVxZvfApIXqv+ps0umShkp7zYT\nCjVIMZpnPORdUYyqO8Es2cTi9i/KsL2pTcxPnN4AzCaf/vDycqdVVY78Sa5rnOw+\n1SFC0tfft3F3PCNdo6c9BI2M7wKBgQC2RU3pm+R1pXJIvGDFGmVPItO1IBE54C5B\n7aTeABvmyB+CA/w7bOyVm0wgJBZ7qbtlNorsePTYrhU3e/6XyiAgmh9uWvO3HkmE\nUNaALnVxHWGRVrTa0oI0FUHg7FViSJTJDJjQVBU9x+jbuhoMsY7v8oRA5RnotO5P\naDA3WhnjNQKBgQDXK8oYHpexDERTfpEAnOdTkx3dmvWeEQxPkjApuC0OTansd8Ue\nrUrpxEZy1dHIoyI/B+52odb9TvhJ4CL/A/jXtriEE763UweWszow4KxTB14BKWWX\nlWe16RwImbWcyvoBrI3t3vUz//8oiPNYEn0lfVb7KudYKr3La0hAWgkIfwKBgQCT\nnftkyDm1wiGVoOMqnp8QAV++YFMzMUmlYWbV2Pa/6LID5WBhbG0LGTQFD9UZoDRB\n23OV4rxBxHMwdX6SxkNQxCHSiVy6oI/f1mxyca3xx17ei397fWOv9Mte82iPacL+\nNPKKPp7ZY09GrSktwJvH3vyXZjSej/I1Y2cxXQp8RQKBgQC1JTR8P81V/t4erIGn\n9mAre9AOt4vylbjcSDIhPZPFtOjx6eI8CyzILL0fT4DJWria49WC9AreMaUb/8aB\nV+fY3WPeoQ31KTQNm8lUuBaMFOb/Fgr1BraJs2YPz0go839/qGCyhd1k9IqqL3XN\nlj6zIJ05EZ0cnR/6Q5Wne1yvhw==\n-----END PRIVATE KEY-----\n",
+    "client_email": "myVisionV2@reconocimiento-facial-360323.iam.gserviceaccount.com",
+    "client_id": "117527790795751951405",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/myVisionV2%40reconocimiento-facial-360323.iam.gserviceaccount.com"
+  }
+  

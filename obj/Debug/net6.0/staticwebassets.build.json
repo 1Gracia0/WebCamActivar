@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u8wLp1s5mriagCTTzKOr6wllmecQlqHBi+C5+Y4R29M=",
+  "Hash": "noz4YMXjN1INeXZt4WfCHjkAibtHuPAsw0lbbCSGsto=",
   "Source": "WebCamCapturing",
   "BasePath": "_content/WebCamCapturing",
   "Mode": "Default",
@@ -49,23 +49,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\User\\Desktop\\WebCamActivar\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebCamCapturing.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\User\\Desktop\\WebCamActivar\\wwwroot\\CameraPhotos\\cddaa21e-a7a2-43e0-9624-916b3aa4b7d0.jpg",
-      "SourceId": "WebCamCapturing",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\WebCamActivar\\wwwroot\\",
-      "BasePath": "_content/WebCamCapturing",
-      "RelativePath": "CameraPhotos/cddaa21e-a7a2-43e0-9624-916b3aa4b7d0.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\CameraPhotos\\cddaa21e-a7a2-43e0-9624-916b3aa4b7d0.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\WebCamActivar\\wwwroot\\css\\site.css",

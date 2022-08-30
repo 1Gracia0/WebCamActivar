@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "DfoSKCvoaWqTLEJFiZIrFktjpTJFW95m85V0k3CY5yGaqxesEbzgoGPcKcYr57enxmGVhfDTLUZWwHS20URBig==",
+  "dgSpecHash": "7L9PdoDMXsWos3ZguN6+SIdGxJ/0GnwkqfUjKuFVLVC+H2x6gxlKezn2Kw8lGZXaA47BZhESBlWGWFeY9Y3xoQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\User\\Desktop\\WebCamActivar\\WebCamCapturing.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\Desktop\\WebCamActivar\\WebCamCapturing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\google.api.commonprotos\\2.6.0\\google.api.commonprotos.2.6.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\google.api.gax\\4.0.0\\google.api.gax.4.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\google.api.gax.grpc\\4.0.0\\google.api.gax.grpc.4.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\google.apis\\1.56.0\\google.apis.1.56.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\google.apis.auth\\1.56.0\\google.apis.auth.1.56.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\google.apis.core\\1.56.0\\google.apis.core.1.56.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\google.cloud.vision.v1\\3.0.0\\google.cloud.vision.v1.3.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\google.longrunning\\3.0.0\\google.longrunning.3.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\google.protobuf\\3.21.0\\google.protobuf.3.21.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\grpc.auth\\2.46.3\\grpc.auth.2.46.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\grpc.core.api\\2.46.3\\grpc.core.api.2.46.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\grpc.net.client\\2.46.0\\grpc.net.client.2.46.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\grpc.net.common\\2.46.0\\grpc.net.common.2.46.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }
