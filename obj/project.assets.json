@@ -625,11 +625,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\WebCamActivar\\WebCamCapturing.csproj",
+      "projectUniqueName": "c:\\Users\\User\\Desktop\\WebCamActivar\\WebCamCapturing.csproj",
       "projectName": "WebCamCapturing",
-      "projectPath": "C:\\Users\\User\\Desktop\\WebCamActivar\\WebCamCapturing.csproj",
+      "projectPath": "c:\\Users\\User\\Desktop\\WebCamActivar\\WebCamCapturing.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\WebCamActivar\\obj\\",
+      "outputPath": "c:\\Users\\User\\Desktop\\WebCamActivar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

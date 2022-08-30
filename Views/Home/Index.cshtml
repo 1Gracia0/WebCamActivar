@@ -1,6 +1,4 @@
-﻿
-
-@{
+﻿@{
     @using System.Diagnostics;
     @using Microsoft.AspNetCore.Mvc;
     @using WebCamCapturing.Models;
@@ -14,9 +12,13 @@
     @using System.IO;
 
     var mostrar="";
-    
+    var mostrar1="";
+    var mostrar2="";
+    var mostrar3="";
+
+    try{
                 string credentialsString = File.ReadAllText("C:/Users/User/Desktop/WebCamActivar/key.json");
-                Image image = Image.FetchFromUri("https://www.rosen.com.pe/arquivos/livingestar_futones.jpg?v=636343519601200000");
+                Image image = Image.FetchFromUri("https://www.hogaryspacios.com/4879-large_default/hys-juego-de-sala-vintage-3-2-1-magno.jpg");
                                
 
                 ImageAnnotatorClient client = new ImageAnnotatorClientBuilder{
@@ -26,19 +28,51 @@
                 IReadOnlyList<LocalizedObjectAnnotation> annotations=client.DetectLocalizedObjects(image);
                 foreach(LocalizedObjectAnnotation annotation in annotations){
                     string poly = string.Join (" - ", annotation.BoundingPoly.NormalizedVertices.Select(v => $"({v.X}, {v.Y})"));
-                    mostrar=($"Nombre del objeto: {annotation.Name}; ID: {annotation.Mid}; Score: {annotation.Score}; Bounding poly: {poly}");
+                    mostrar=($"{annotation.Name}");
+                    mostrar1=($"{annotation.Mid}");
+                    mostrar2=($"{annotation.Score}");
+                    mostrar3=($"{poly}");
                 }
-            
+            }catch(Exception e){
+                mostrar=(e.Message);
+            }
 
             
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h2 class="display-4">RECONOCIMIENTO DE OBJETOS EN UNA IMAGEN</h2>
-    <img src="https://www.rosen.com.pe/arquivos/livingestar_futones.jpg?v=636343519601200000" width="400px" height="200px" alt="imgf"/> 
+    <h2 class="">RECONOCIMIENTO DE OBJETOS EN UNA IMAGEN</h2>
+    <img src="https://drimerqa.vtexassets.com/arquivos/ids/165561-800-auto?v=637801286474770000&width=800&height=auto&aspect=true" width="300px" height="300px" alt="imgf"/> 
     <br>
     <br>
-    @mostrar
+    <table class="table table-bordered table-responsive table-hover">  
+    <thead>
+    <tr>  
+        <th></th>  
+        <th>Datos de los objetos</th> 
+    </tr>
+    </thead>  
+    <tbody>
+        <tr>              
+            <td>Nombre: </td>
+            <td>@mostrar</td>
+           
+        </tr> 
+        <tr> 
+            <td>ID:</td>
+            <td>@mostrar1</td>
+        </tr> 
+        <tr> 
+            <td>Score:</td>
+            <td>@mostrar2</td>
+        </tr> 
+        <tr> 
+            <td>Bounding Poly:</td>
+            <td>@mostrar3</td>
+     </tr> 
+    </tbody>
+     
+</table>  
 </div>
     
